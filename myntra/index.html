@@ -4,21 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Myntra Clone</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="/myntra/images/myntra_logo.ico">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
         <nav>
         <img class="logo" src="/myntra/images/myntra_logo.webp" alt="logo">
-        <ul>
+        <ul class="navigation">
             <li><a href="#">men</a></li>
             <li><a href="#">women</a></li>
             <li><a href="#">kids</a></li>
             <li><a href="#">Home & living</a></li>
             <li><a href="#">beauty</a></li>
-            <li><a href="#">Studio <em>new</em></a></li>
+            <li><a href="#">Studio <sup><em>new</em></sup></a></li>
+        </ul>
+        <div class="search">
+            <span class="material-symbols-outlined">
+                search
+                </span>
+            <input type="search" id="bar" placeholder="Search for products,brands and more">
+        </div>
+        
+        <ul class="user-section">
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Bag</a></li>
         </ul>
         </nav>
-
+        <img class="banner" src="/myntra/images/banner.jpg" alt="">
     </header>
 </body>
 </html>
